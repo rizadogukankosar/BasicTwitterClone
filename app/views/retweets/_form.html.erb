@@ -1,0 +1,13 @@
+<%= form_with model: [ @tweet, @tweet.retweets.build ] do |form| %>
+  <p>
+    <%= form.label :username %><br>
+    <%= form.text_field :username %>
+  </p>
+  <p>
+    <%= form.label :tweet %><br>
+    <%= form.text_area :retweet_body %>
+  </p>
+  <p>
+    <%= form.submit class: "btn btn-outline-primary" %>
+  </p>
+<% end %>

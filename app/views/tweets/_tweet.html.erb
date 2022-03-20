@@ -1,0 +1,23 @@
+<div id="<%= dom_id tweet %>">
+
+    <div style=" margin-top: 30px; padding: 20px 30px 20px 30px;
+      border-color: #2E2F30; border-style: double;
+      margin-left: auto; margin-right: auto; width: 50%;
+    ">
+  <div>
+  <%= image_tag("twitter_logo.png" ,size: "30x30",class: "logo_post")  %>
+  <p style="display: inline ; margin-left: 10px">
+    <%= tweet.username %>
+  </p>
+  </div>
+    <br>
+  <strong>
+    <%= tweet.tweet_body %>
+  </strong>
+    <p style="margin-top: 15px;right: 10px;">
+      <%= link_to "Show this tweet", tweet ,class: "btn btn-outline-primary"%>
+    </p>
+  </div>
+
+
+</div>

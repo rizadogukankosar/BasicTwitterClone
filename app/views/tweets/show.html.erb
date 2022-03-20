@@ -1,0 +1,21 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tweet %>
+
+<!--
+<div>
+  <%= link_to "Edit this tweet", edit_tweet_path(@tweet) %> |
+  <%= link_to "Back to tweets", tweets_path %>
+
+  <%= button_to "Destroy this tweet", @tweet, method: :delete %>
+</div>
+-->
+
+<div style="padding: 20px 30px 20px 30px;
+  margin-left: auto; margin-right: auto; width: 50%;
+">
+<h6 style="color: royalblue">Retweet:</h6>
+<%= render 'retweets/form' %>
+</div>
+<%= render @tweet.retweets %>
+

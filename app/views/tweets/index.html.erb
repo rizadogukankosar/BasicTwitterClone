@@ -1,0 +1,8 @@
+<p style="color: green"><%= notice %></p>
+
+<div id="tweets">
+  <% @tweets.each do |tweet| %>
+    <%= render tweet %>
+
+  <% end %>
+</div>
