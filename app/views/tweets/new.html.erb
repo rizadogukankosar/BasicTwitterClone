@@ -1,9 +1,15 @@
-<h1>New tweet</h1>
 
+
+<div style="margin-left: 50px">
+  <h1>New tweet</h1>
 <%= render "form", tweet: @tweet %>
+
+  <div style="margin-top: 10px">
+    <%= link_to "Back to tweets", tweets_path ,class: "btn btn-outline-primary"%>
+  </div>
+
+
+</div>
 
 <br>
 
-<div>
-  <%= link_to "Back to tweets", tweets_path %>
-</div>
