@@ -1,24 +1,9 @@
-# README
+# Basic twitter clone with ruby on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+*Homepage
+![resim](https://user-images.githubusercontent.com/56265588/159167661-e3a7ba6f-1a27-437f-af27-0870ca06551a.png)
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Tweet Page
+![resim](https://user-images.githubusercontent.com/56265588/159167685-392a9e04-2738-4a58-86ea-877a0e95d918.png)
